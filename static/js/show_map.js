@@ -1,0 +1,25 @@
+
+
+    ymaps.ready(init);
+
+    function init() {
+
+        var myMap = new ymaps.Map("map", {
+
+            center: [55.76, 37.64],
+
+            zoom: 12,
+
+            controls: [
+
+                new ymaps.control.SearchControl({
+                    options: {
+                        size: 'large',
+                        provider: 'yandex#search'
+                    }
+                })
+
+            ]
+        });
+
+    }
