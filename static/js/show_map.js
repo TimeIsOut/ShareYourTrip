@@ -12,13 +12,6 @@
 
             controls: [
 
-                'zoomControl',
-                'rulerControl',
-                'routeButtonControl',
-                'trafficControl',
-                'typeSelector',
-                'fullscreenControl',
-
                 new ymaps.control.SearchControl({
                     options: {
                         size: 'large',
